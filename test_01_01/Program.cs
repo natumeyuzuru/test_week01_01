@@ -11,14 +11,14 @@ namespace test_week01_01
         static void Main(string[] args)
         {
             demo0104();
-            // Console.WriteLine("Hello World!");//consle_控制台
-           // double x = 3, y = 5, res;
-           // res= Max(x, y);
-           // Console.WriteLine("max={0}", res);
-           // Console.WriteLine("max={0,10:0.00}", res);//讲道理，逗号后的10指的是输出的宽度为十个字符，：后的0.00指的是小数点后两位
-           // Console.WriteLine("max={0:E2}", res);//这里的E2意思是科学计数法保留两位
-           // Console.WriteLine("max={0:F2}", res);//这里的意思是浮点数保留两位
-            //console.readkey();字面意思
+             Console.WriteLine("Hello World!");//consle_控制台
+            double x = 3, y = 5, res;
+            res= Max(x, y);
+            Console.WriteLine("max={0}", res);
+            Console.WriteLine("max={0,10:0.00}", res);//讲道理，逗号后的10指的是输出的宽度为十个字符，：后的0.00指的是小数点后两位
+            Console.WriteLine("max={0:E2}", res);//这里的E2意思是科学计数法保留两位
+            Console.WriteLine("max={0:F2}", res);//这里的意思是浮点数保留两位
+            Console.ReadKey();
         }
         public static double Max(double x, double y)
         {
