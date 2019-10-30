@@ -1,0 +1,5 @@
+# stationName B L
+1 wuhan 29.58 113.53
+2 beijing 39.26 115.25
+3 shanghai 30.24 122.13
+4 xian 39.45 108.56
